@@ -3,7 +3,9 @@ set tabstop=4
 set visualbell
 set nocompatible
 
-" let g:airline_theme='base16'
+set laststatus=2
+
+"let g:airline_theme='base16'
 "colo onedark_2
 "hi Normal ctermbg=none
 
