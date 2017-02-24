@@ -8,18 +8,20 @@
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
-ZSH_THEME="powerline"
+# ZSH_THEME="powerline"
+ZSH_THEME="jreese"
 
-POWERLINE_PATH="short"
+# Config for Powerline:
+# POWERLINE_PATH="short"
 
-POWERLINE_HIDE_HOST_NAME="true"
+# POWERLINE_HIDE_HOST_NAME="true"
 
 # POWERLINE_HIDE_USER_NAME="true"
 
-POWERLINE_DISABLE_RPROMPT="true"
+# POWERLINE_DISABLE_RPROMPT="true"
 
 # POWERLINE_RIGHT_B="none"
-
+# End of powerline config
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
