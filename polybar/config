@@ -11,13 +11,20 @@
 ;background = #222
 background = #1E282C
 ;background-alt = #444
-background-alt = #495735
-foreground = #dfdfdf
+background-alt = #282828
+foreground = #C3C7D1
 foreground-alt = #55
 ;primary = #ffb52a
 primary = #C3E88D
 secondary = #e60053
 alert = #bd2c40
+
+red = #EB606B
+green = #B8BB26
+yellow = #F7EB95
+blue = #7DC6BF
+pink = #D3869B
+mint = #C3E88D
 
 [global/wm]
 margin-top = 5
@@ -36,7 +43,7 @@ offset-y = 0
 ;monitor = ${env:MONITOR:DVI-I-0}
 monitor = DVI-I-0
 width = 100%
-height = 21
+height = 22
 offset-x = 0
 offset-y = 0
 
@@ -283,23 +290,25 @@ bar-empty-foreground = ${colors.foreground-alt}
 [module/cpu]
 type = internal/cpu
 interval = 2
+label-foreground = ${colors.mint}
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 ;format-underline = #f90000
 format-padding = 1
-format-underline = #AEDDFF
-format-background = #4A5D6B
+;format-underline = #AEDDFF
+;format-background = #4A5D6B
 label =  %percentage%
 
 [module/memory]
 type = internal/memory
 interval = 2
 format-prefix = " "
+label-foreground = ${colors.blue}
 format-prefix-foreground = ${colors.foreground-alt}
 ;format-underline = #4bffdc
 format-padding = 1
-format-underline = #80CBC3
-format-background = #365652
+;format-underline = #80CBC3
+;format-background = ${colors.background}
 label =  %percentage_used%
 
 [module/wlan]
@@ -340,15 +349,15 @@ label-disconnected-foreground = ${colors.foreground-alt}
 type = internal/date
 interval = 5
 
-date =  
-date-alt =   %Y-%m-%d 
+;date =
+date-alt =   %Y-%m-%d
 date-alt-padding-bottom = 1
 
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
+; format-prefix =
+;format-prefix-foreground = ${colors.foreground-alt}
 ;format-underline = #0a6cf5
 ;format-underline = #6C71C3
 ;format-background = #444779
@@ -363,18 +372,18 @@ type = internal/volume
 format-volume = <label-volume> <bar-volume>
 ;label-volume = VOL
 label-volume = 
-format-volume-padding = 1
-label-volume-foreground = ${root.foreground}
-format-volume-background = #5E5938
-format-volume-underline = #F7EB95
+format-volume-padding = 0
+label-volume-foreground = ${colors.yellow}
+format-volume-background = #282828
+;format-volume-underline = #F7EB95
 
 format-muted-prefix = " "
-format-muted-foreground = ${colors.foreground-alt}
+format-muted-foreground = ${colors.yellow}
 label-muted = sound muted
 
 bar-volume-width = 10
 ;bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-0 = #F7EB95
+bar-volume-foreground-0 = ${colors.yellow}
 ;bar-volume-foreground-1 = #55aa55
 ;bar-volume-foreground-2 = #55aa55
 ;bar-volume-foreground-3 = #55aa55
@@ -443,14 +452,15 @@ type = custom/menu
 ;label-open =  power
 label-open =  
 
-label-open-foreground = #dfdfdf
+;label-foreground = ${colors.red}
+label-open-foreground = ${colors.red}
 label-close =  cancel
-label-close-foreground = #dfdfdf
+label-close-foreground = ${colors.red}
 label-separator = |
 label-separator-foreground = #dfdfdf
-format-underline = #EB606B
+;format-underline = #EB606B
 format-padding = 1
-format-background = #81343A
+;format-background = #81343A
 
 menu-0-0 = reboot
 menu-0-0-exec = menu-open-1
