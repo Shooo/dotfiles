@@ -11,7 +11,7 @@
 ;background = #222
 background = #1E282C
 ;background-alt = #444
-background-alt = #282828
+background-alt = #1E282C
 foreground = #C3C7D1
 foreground-alt = #55
 ;primary = #ffb52a
@@ -374,7 +374,7 @@ format-volume = <label-volume> <bar-volume>
 label-volume = 
 format-volume-padding = 0
 label-volume-foreground = ${colors.yellow}
-format-volume-background = #282828
+format-volume-background = #1E282C
 ;format-volume-underline = #F7EB95
 
 format-muted-prefix = " "
