@@ -96,4 +96,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# alis for i3lock
 alias lock=~/.config/i3/lock.sh
+# change current desktop for gnome-control-center
+export XDG_CURRENT_DESKTOP=GNOME
+
