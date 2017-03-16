@@ -67,7 +67,7 @@ padding-right = 0
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = Hack:pixelsize=10;0
+font-0 = DejaVu Sans Mono:pixelsize=10;0
 ;font-1 = unifont:size=6:heavy:fontformat=truetype;-2
 ;font-2 = siji:pixelsize=10;0
 
