@@ -3,6 +3,9 @@ set tabstop=4
 set visualbell
 set nocompatible
 
+set mouse=a
+set ttymouse=xterm
+
 set laststatus=2
 
 "let g:airline_theme='base16'
