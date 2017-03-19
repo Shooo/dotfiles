@@ -6,6 +6,9 @@ set nocompatible
 set mouse=a
 set ttymouse=xterm
 
+set encoding=utf-8
+set term=xterm-256color
+
 set laststatus=2
 
 "let g:airline_theme='base16'
