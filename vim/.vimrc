@@ -9,6 +9,8 @@ set ttymouse=xterm
 set encoding=utf-8
 set term=xterm-256color
 
+highlight! link MatchParen StatusLine
+
 set laststatus=2
 
 "let g:airline_theme='base16'
