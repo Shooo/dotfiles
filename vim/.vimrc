@@ -51,5 +51,7 @@ Plugin 'joshdick/onedark.vim'
 
 Plugin 'kien/ctrlp.vim'
 
+Plugin 'majutsushi/tagbar'
+
 filetype plugin indent on
 
