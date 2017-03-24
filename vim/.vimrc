@@ -1,5 +1,6 @@
 set number
 set tabstop=4
+set shiftwidth=4
 set visualbell
 set nocompatible
 
@@ -18,6 +19,11 @@ set term=xterm-256color
 set t_Co=16
 
 set list lcs=tab:\|\ 
+
+set pastetoggle=<F3>
+
+let g:AutoClosePumvisible = {"ENTER": "", "ESC": ""}
+
 
 "highlight! link MatchParen StatusLine
 
