@@ -7,9 +7,51 @@ set mouse=a
 set ttymouse=xterm
 
 set encoding=utf-8
+
+colo default
+
+"if $COLORTERM == 'gnome-terminal'
+"	set t_Co=256
+"endif
+
 set term=xterm-256color
+set t_Co=16
+
+set list lcs=tab:\|\ 
 
 highlight! link MatchParen StatusLine
+
+let g:airline_theme='wombat'
+
+" air-line
+let g:airline_powerline_fonts = 1
+
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+
+" unicode symbols
+let g:airline_left_sep = '»'
+let g:airline_left_sep = '▶'
+let g:airline_right_sep = '«'
+let g:airline_right_sep = '◀'
+let g:airline_symbols.linenr = '␊'
+let g:airline_symbols.linenr = '␤'
+let g:airline_symbols.linenr = '¶'
+let g:airline_symbols.branch = '⎇'
+let g:airline_symbols.paste = 'ρ'
+let g:airline_symbols.paste = 'Þ'
+let g:airline_symbols.paste = '∥'
+let g:airline_symbols.whitespace = 'Ξ'
+
+" airline symbols
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+let g:airline_symbols.branch = ''
+let g:airline_symbols.readonly = ''
+let g:airline_symbols.linenr = ''
 
 set laststatus=2
 
@@ -47,7 +89,7 @@ Plugin 'romainl/Apprentice'
 
 Plugin 'joshdick/onedark.vim'
 
-"Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 
 Plugin 'kien/ctrlp.vim'
 
