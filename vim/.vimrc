@@ -19,7 +19,7 @@ set t_Co=16
 
 set list lcs=tab:\|\ 
 
-highlight! link MatchParen StatusLine
+"highlight! link MatchParen StatusLine
 
 let g:airline_theme='wombat'
 
