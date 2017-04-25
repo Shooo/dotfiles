@@ -102,3 +102,6 @@ alias lock=~/.config/i3/lock.sh
 alias clock="tty-clock -c -C 4"
 # change current desktop for gnome-control-center
 export XDG_CURRENT_DESKTOP=GNOME
+
+[[ "$TERM" == "xterm" ]] && export TERM=xterm-256color
+
