@@ -9,22 +9,22 @@
 
 [colors]
 ;background = #222
-background = #ee1E282C
+background = #ee2E323C
 ;background-alt = #444
-background-alt = #ee1E282C
+background-alt = #ee2E323C
 foreground = #C3C7D1
 foreground-alt = #55
 ;primary = #ffb52a
-primary = #C3E88D
+primary = #9FBA8C
 secondary = #e60053
 alert = #bd2c40
 
-red = #EB606B
-green = #B8BB26
-yellow = #F7EB95
-blue = #7DC6BF
-pink = #D3869B
-mint = #C3E88D
+red = #BB656F
+green = #9FBA8C
+yellow = #E2C68B
+blue = #8D9FB0
+pink = #B08DAB
+mint = #93B0AF
 
 [global/wm]
 margin-top = 5
@@ -374,7 +374,7 @@ format-volume = <label-volume> <bar-volume>
 label-volume = 
 format-volume-padding = 0
 label-volume-foreground = ${colors.yellow}
-format-volume-background = #ee1E282C
+format-volume-background = #ee2E323C
 ;format-volume-underline = #F7EB95
 
 format-muted-prefix = " "
