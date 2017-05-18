@@ -67,12 +67,12 @@ padding-right = 0
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = DejaVu Sans Mono:pixelsize=10;0
+font-0 = Roboto Mono for Powerline:pixelsize=10;0
 ;font-1 = unifont:size=6:heavy:fontformat=truetype;-2
 ;font-2 = siji:pixelsize=10;0
 
 font-1 = FontAwesome:fontformat=truetype:size=9;0
-font-2 = Unifont:fontformat=truetype:size=10;3
+font-2 = Unifont:fontformat=truetype:size=8;-1
 
 ;font-0 = monospace:pixelsize=10;0
 ;font-1 = monospace:size=6:heavy:fontformat=truetype;-2
@@ -131,12 +131,12 @@ padding-right = 0
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = DejaVu Sans Mono:pixelsize=10;0
+font-0 = Roboto Mono for Powerline:pixelsize=10;0
 ;font-1 = unifont:size=6:heavy:fontformat=truetype;-2
 ;font-2 = siji:pixelsize=10;0
 
 font-1 = FontAwesome:fontformat=truetype:size=9;0
-font-2 = Unifont:fontformat=truetype:size=10;0
+font-2 = Unifont:fontformat=truetype:size=10;-1
 
 
 
