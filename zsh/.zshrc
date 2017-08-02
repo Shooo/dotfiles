@@ -100,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alis for i3lock
 alias lock=~/.config/i3/lock.sh
 alias clock="tty-clock -c -C 4"
+alias settings=gnome-control-center
 # change current desktop for gnome-control-center
 export XDG_CURRENT_DESKTOP=GNOME
 
